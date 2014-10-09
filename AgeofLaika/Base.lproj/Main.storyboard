@@ -51,6 +51,18 @@
                                     <rect key="frame" x="33" y="72" width="221" height="21"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-Ex-3Ev">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Convert To Real Dog Years">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="26" y="222" width="198" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="convertToRealDogYearsButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="CtU-qn-ndl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -58,6 +70,7 @@
                                 <exclude reference="UbD-UC-Qza"/>
                                 <exclude reference="0wj-8L-cAa"/>
                                 <exclude reference="WgQ-0i-4Hi"/>
+                                <exclude reference="NDk-Ex-3Ev"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -65,6 +78,7 @@
                                 <include reference="UbD-UC-Qza"/>
                                 <include reference="0wj-8L-cAa"/>
                                 <include reference="WgQ-0i-4Hi"/>
+                                <include reference="NDk-Ex-3Ev"/>
                             </mask>
                         </variation>
                     </view>
